@@ -5,6 +5,7 @@ using namespace std;
 
 string getUserName()
 {
+    cout << "Enter your name : ";
     string name;
     cin >> name;
 
@@ -18,6 +19,5 @@ void printWelcome(string name)
 int main()
 {
     printWelcome(getUserName());
-
     return 0;
 }
